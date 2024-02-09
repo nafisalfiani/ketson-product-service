@@ -3,10 +3,10 @@ package region
 import (
 	context "context"
 
-	"github.com/nafisalfiani/ketson-go-lib/codes"
-	"github.com/nafisalfiani/ketson-go-lib/errors"
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-product-service/entity"
+	"github.com/nafisalfiani/ketson-product-service/lib/codes"
+	"github.com/nafisalfiani/ketson-product-service/lib/errors"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
 	"github.com/nafisalfiani/ketson-product-service/usecase/region"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"

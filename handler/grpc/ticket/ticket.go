@@ -3,7 +3,7 @@ package ticket
 import (
 	context "context"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
 	"github.com/nafisalfiani/ketson-product-service/usecase/ticket"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )

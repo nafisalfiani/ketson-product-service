@@ -3,11 +3,11 @@ package ticket
 import (
 	"context"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-product-service/domain/category"
 	"github.com/nafisalfiani/ketson-product-service/domain/region"
 	ticketDom "github.com/nafisalfiani/ketson-product-service/domain/ticket"
 	"github.com/nafisalfiani/ketson-product-service/entity"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
 )
 
 type Interface interface {

@@ -1,14 +1,14 @@
 package domain
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/cache"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/parser"
 	"github.com/nafisalfiani/ketson-product-service/domain/category"
 	"github.com/nafisalfiani/ketson-product-service/domain/region"
 	"github.com/nafisalfiani/ketson-product-service/domain/ticket"
 	"github.com/nafisalfiani/ketson-product-service/domain/wishlist"
+	"github.com/nafisalfiani/ketson-product-service/lib/broker"
+	"github.com/nafisalfiani/ketson-product-service/lib/cache"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
+	"github.com/nafisalfiani/ketson-product-service/lib/parser"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

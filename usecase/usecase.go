@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-product-service/domain"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
 	"github.com/nafisalfiani/ketson-product-service/usecase/category"
 	"github.com/nafisalfiani/ketson-product-service/usecase/region"
 	"github.com/nafisalfiani/ketson-product-service/usecase/ticket"

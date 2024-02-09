@@ -3,7 +3,7 @@ package wishlist
 import (
 	context "context"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
+	"github.com/nafisalfiani/ketson-product-service/lib/log"
 	"github.com/nafisalfiani/ketson-product-service/usecase/wishlist"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )
